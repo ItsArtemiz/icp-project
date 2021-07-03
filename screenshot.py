@@ -80,7 +80,7 @@ root.title('Take Screenshots')
 root.geometry('275x350')
 path = f'C:\\Users\\{os.getlogin()}\\Pictures\\Screenshots'
 
-ss_button = tk.Button(root, text='Take Screenshot', command=take_screenshot)
+ss_button = tk.Button(root, text='PyScreenshots', command=take_screenshot)
 ss_button.pack(side=tk.TOP, pady=50)
 
 file_button = tk.Button(root, text='Open Screenshots Folder', command=browsefile)
