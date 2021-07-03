@@ -77,13 +77,13 @@ def update_recents():
 
 root = tk.Tk()
 root.title('Take Screenshots')
-root.geometry('500x500')
+root.geometry('275x350')
 path = f'C:\\Users\\{os.getlogin()}\\Pictures\\Screenshots'
 
 ss_button = tk.Button(root, text='Take Screenshot', command=take_screenshot)
 ss_button.pack(side=tk.TOP, pady=50)
 
-file_button = tk.Button(root, text='Open Screenshots', command=browsefile)
+file_button = tk.Button(root, text='Open Screenshots Folder', command=browsefile)
 file_button.pack(side=tk.TOP, pady=25)
 
 try:
